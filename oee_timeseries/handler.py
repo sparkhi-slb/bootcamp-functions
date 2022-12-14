@@ -20,7 +20,7 @@ from tools import insert_datapoints
 
 CYCLE_TIME = 3
 
-
+#added comment
 def get_payload(collection: np.array, window: Tuple[Arrow, Arrow]):
     return [
         (_timestamp, collection[i])
